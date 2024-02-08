@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>AGE CALCULATOR</h1>
+    </div>
+    <div class="box">
+            <div class="calender-icon">
+                <div class="dash"></div>
+                <div class="dash"></div>
+                <div class="dash"></div>
+                <div class="dash"></div>
+            </div>
+            <div class="dob-text">
+                <h2>Your Date Of Birth</h2>   
+            </div>
+            <div class="date-div">
+                <input type="date" id="dob">
+            </div>
+            <div class="calculate-btn">
+                <p onclick="calculateAge()">Calculate</p>
+            </div>
+            <hr>
+            <div class="final-output">
+                <div class="rect1">
+                    <p>0 Year/s</p>
+                </div>
+                <div class="rect2">
+                    <p>0 Month/s</p>
+                </div>
+                <div class="rect3">
+                    <p>0 Day/s</p>
+                </div>
+            </div>
+    </div>  
+    <div class="footer">
+        <h2>Developed By Vaishnavi Dhulam</h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

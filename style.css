@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+.heading{
+    background-color: darkred;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.box{
+    width: 50%;
+    margin: 0px auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 500px;
+    background-color: darkred;
+    border-radius: 50px;
+    box-shadow: 8px 8px 8px black;
+}
+.box .calender-icon{
+    width: 40%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+}
+.calender-icon .dash{
+    width: 40px;
+    height: 100%;
+    margin-left: 23px;
+    color: white;
+    background-color: darkred;
+}
+.dob-text{
+    width: 40%;
+    height: 35px;
+    background-color: azure;
+    color: darkred;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 16px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 8px 8px 8px black;
+}
+.date-div{
+    width: 40%;
+    height: 50px;
+    background-color: white;
+    margin-left: 17%;
+    margin-top: 40px;
+    border-radius: 20px;
+    gap:18%;
+    box-shadow: 8px 8px 8px black;
+}
+.date-div input{
+    width: 80%;
+    height: 100%;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    color: darkred;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+.calculate-btn{
+    width: 25%;
+    height: 40px;
+    background-color: green;
+    margin-left: 60%;
+    margin-top: -45px;
+    box-shadow: 8px 8px 8px black;
+    text-align: center;
+}
+.calculate-btn:hover{
+    cursor: pointer;
+}
+hr{
+    width: 70%;
+    height: 2px;
+    margin: 50px 110px;
+    background-color: white;
+}
+.calculate-btn p{
+    padding-top: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.final-output{
+    width: 70%;
+    height: 100px;
+    margin: 50px auto;
+    display: flex;
+    gap: 5%;
+}
+.final-output .rect1,.rect2,.rect3{
+    width: 30%;
+    height: 80%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    box-shadow: 8px 8px 8px black;
+}
+.rect1{
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px
+}
+.rect2{
+    border-radius: 15px;
+}
+.rect3{
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px
+}
+.footer{
+    background-color: darkred;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.final-output p{
+    color: darkred;
+    margin-top: 25px;
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: 18px;
+}
